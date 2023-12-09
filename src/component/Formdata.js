@@ -230,7 +230,7 @@ const Formdata=()=>{
 
 
       <label htmlFor="countryDropdown">Select a city:</label>
-      <select id="countryDropdown" value={formData.city} onChange={(e) => [setFormData({ ...formData, city: e.target.value }),setCountriesName("city")]}>
+      <select id="countryDropdown" value={formData.city} onChange={(e) =>setFormData ({ ...formData, city: e.target.value })}>
         <option value="">Select...</option>
         {countries.city&&countries.city.map((country, index) => (
           <option key={index} value={country}>
