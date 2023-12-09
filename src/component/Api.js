@@ -1,1 +1,1 @@
-exports.api="http://localhost:5000/"
+exports.api="https://frombackend.vercel.app/"
